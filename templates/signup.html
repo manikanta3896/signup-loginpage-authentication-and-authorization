@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Signup</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Sign Up</h1>
+
+    <form action="/signup" method="post">
+
+        <input
+            type="text"
+            name="username"
+            placeholder="Username"
+            required>
+
+        <input
+            type="text"
+            name="first_name"
+            placeholder="First Name"
+            required>
+
+        <input
+            type="text"
+            name="last_name"
+            placeholder="Last Name"
+            required>
+
+        <input
+            type="text"
+            name="phone"
+            placeholder="Phone Number"
+            required>
+
+        <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            required>
+
+        <button type="submit">
+            Register
+        </button>
+
+    </form>
+
+    <p>
+        Already have an account?
+        <a href="/login">Login</a>
+    </p>
+
+</div>
+
+</body>
+
+</html>
